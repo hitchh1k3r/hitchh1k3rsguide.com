@@ -1,0 +1,763 @@
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42869149-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-42869149-1');
+    </script>
+
+    <title>Portfolio</title>
+    <style>
+      html, body {
+        padding: 0;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      .title {
+        padding: 5px;
+        background: #000000;
+        color: #FFFFFF;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 10px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+      .title .left {
+        text-align: center;
+      }
+      .title .right {
+        text-align: center;
+      }
+      .subTitleWrapper {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      .subTitle {
+        display: inline-block;
+        padding: 5px 10px;
+        padding-top: 8px;
+        background: #000000;
+        color: #FFFFFF;
+      }
+      .block {
+        margin: 0 10px;
+      }
+      .header {
+        padding: 10px;
+        padding-top: 20px;
+        background: #FFFFFF;
+      }
+      .clear {
+        clear: both;
+      }
+      .line {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        width: 4px;
+        margin-left: -2px;
+        background: #000000;
+        z-index: -1;
+      }
+      .left {
+        position: relative;
+        float: left;
+        width: 49%;
+        text-align: justify;
+      }
+      .right {
+        position: relative;
+        float: right;
+        width: 49%;
+        text-align: justify;
+      }
+      .aspect {
+        position: relative;
+      }
+      .aspect_content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000000;
+      }
+      .codeBox {
+        margin-left: -50px;
+        padding-left: 50px;
+        margin-right: -2%;
+        padding-right: 10px;
+        padding-top: 4px;
+        padding-bottom: 12px;
+        background: #000000;
+        color: #FFFFFF;
+        line-height: 1.75em;
+        text-indent: 10px;
+      }
+      .codeBox iframe {
+        border: solid 2px #555555;
+        border-radius: 3px;
+      }
+      .full {
+        margin-top: -10px;
+        background: #FFFFFF;
+        padding: 10px;
+      }
+      .full .codeBox {
+        margin-left: -10px;
+        padding-left: 10px;
+        margin-right: -10px;
+        padding-right: 14px;
+      }
+      .maxWidth {
+        margin: auto;
+        display: block;
+        max-width: 1200px;
+      }
+      .maxWidthVideo {
+        margin: auto;
+        display: block;
+        max-width: 700px;
+      }
+      .imgWrapper {
+        width: 75%;
+        margin: 5px auto;
+        border: solid 4px #000055;
+      }
+      .imgWrapper:hover {
+        border-color: #005599;
+      }
+      a, a:link, a:visited {
+        text-decoration: none;
+        color: #1111DD;
+      }
+      a:hover, a:active {
+        color: #00AAFF;
+      }
+      .gameLink {
+        position: relative;
+        top: 8px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="line"></div>
+
+    <!-- ======================= NOTABLE GAMES ======================= -->
+
+    <a name="notable_games"></a>
+    <div class="title">
+      NOTABLE GAMES
+    </div>
+
+    <!-- ======================= ONE ROOM GUILD ======================= -->
+
+    <div class="block">
+      <div class="left">
+        <div class="subTitle">
+          OneRoomGuild.org
+        </div>
+      </div>
+      <div class="right">
+        <div class="gameLink"><a href="https://hitchh1k3r.itch.io/oneroomguildorg" target="_blank">https://hitchh1k3r.itch.io/oneroomguildorg</a></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="block">
+      <div class="left">
+
+        <p>A Ludum Dare game made for the 37th event, in a 4 person team. I was the sole programmer, and implemented more unique new systems in this game then I had in any previous Ludum Dare. I've included the source for the bulk of the notification (tweeting) system bellow.</p>
+
+        <div class="codeBox">
+          Notifications.cs
+          <div class="aspect" style="padding-top:75%;">
+            <iframe class="aspect_content" src="code/Notifications.cs.html" frameborder="0"></iframe>
+          </div>
+        </div>
+
+      </div>
+      <div class="right">
+        <p>The game was rated well, averaging nearly 4 (of 5) stars in every category.</p>
+
+        <div class="maxWidthVideo">
+          <div class="aspect" style="padding-top:62.5%;">
+            <iframe class="aspect_content" src="https://www.youtube.com/embed/Yji7kTe39rI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <p>The theme was "One Room" so we made a game where the player is the manager of a guild of adventurer's and they never leave the guild hall. Player's seemed to enjoy the simple mechanics, but I always felt the lack of depth, while allowing us to easily add very shallow content, made the game fairly exploitive. Luckily it can be beaten in less than an hour.</p>
+      </div>
+      <div class="clear"></div><br />
+    </div>
+
+    <!-- ======================= Ancient Akkadians ======================= -->
+
+    <div class="block">
+      <div class="left">
+        <div class="subTitle">
+          Ancient Akkadians
+        </div>
+      </div>
+      <div class="right">
+        <div class="gameLink"><a href="https://hitchh1k3r.itch.io/ancient-akkadians" target="_blank">https://hitchh1k3r.itch.io/ancient-akkadians</a></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="block">
+      <div class="left">
+
+        <p>Another Ludum Dare game (LDJam 36) made by a 3 person team. I was the sole programmer, and once again pushed to do things that I was unfamiliar with. Most notably the game made use of a dynamic music system of my own design. The main track controlled the timing of all other tracks (Unity's playback system will allow audioclips to drift out of sync over long time periods), and then the volume of each track was set by the time of day system. Some tracks are crossfaded (ex. night crickets), and others change their volume immediately at a specific break point (used to turn music tracks on and off). Because some of the time rounds could be shorter than the musical phrases that were written for them, I had to implement a forward looking system, that would guess what time of day it would be half a musical frame ahead, and allow tracks to cut in early. The code for the volume controller follows:</p>
+
+        <!-- <div class="codeBox">
+          MusicSync.cs
+          <div class="aspect" style="padding-top:75%;">
+            <iframe class="aspect_content" src="code/MusicSync.cs.html" frameborder="0"></iframe>
+          </div>
+        </div> -->
+
+        <div class="codeBox">
+          TimeOfDayAudio.cs
+          <div class="aspect" style="padding-top:75%;">
+            <iframe class="aspect_content" src="code/TimeOfDayAudio.cs.html" frameborder="0"></iframe>
+          </div>
+        </div>
+
+      </div>
+      <div class="right">
+        <p>Ludum Dare 36 was without ratings, but we still tried to make the best game possible.</p>
+
+        <div class="maxWidthVideo">
+          <div class="aspect" style="padding-top:62.5%;">
+            <iframe class="aspect_content" src="https://www.youtube.com/embed/DvxOrHRJYWk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <p>The theme was "Ancient Technology" so we made a game that started with the player building a primitive city and ended when they finished constructing a temple. There were a lot of features that had to be pulled from the design, but after focusing down to the bare mechanics that game was still a little fun, and I think it would have been rated fairly well. Our player's responded favorable to the game.</p>
+      </div>
+      <div class="clear"></div><br />
+    </div>
+
+
+
+    <!-- ======================= Time Surge ======================= -->
+
+    <div class="block">
+      <div class="left">
+        <div class="subTitle">
+          Time Surge
+        </div>
+      </div>
+      <div class="right">
+        <div class="gameLink"><a href="https://hitchh1k3r.itch.io/time-surge" target="_blank">https://hitchh1k3r.itch.io/time-surge</a></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="block">
+      <div class="left">
+
+        <p>This was my second time joining the Ludum Dare game jam, and the largest team I worked with. There were 5 of us, two programmers, an artist, a writer, and a musician. I did the bulk of the programming, and integrated the work of the second programmer into the game. I had not finished many games before this one, and so pretty much everything in it was new to me, but I most remember the time rewinding system... which plays the music backwards and undoes all of the explosion particles. There were several of bugs that popped up during the play and rate phase, mostly to do with two components reacting to the same message (when only one should have)... since then I have gained a much better grasp on composition based architecture.</p>
+      </div>
+      <div class="right">
+        <p>Made for Ludum Dare 27, this was the highest rated "overall" (#17) Ludum Dare game I have worked on.</p>
+
+        <div class="maxWidthVideo">
+          <div class="aspect" style="padding-top:62.5%;">
+            <iframe class="aspect_content" src="https://www.youtube.com/embed/kjLDsuaUF18" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <p>The theme was "10 Seconds" so we made a game where the player was stuck in a 10 second time loop, and had to solve puzzles to get out.</p>
+      </div>
+      <div class="clear"></div><br />
+    </div>
+
+    <!-- ======================= Amorphous Space Widgets ======================= -->
+
+    <div class="block">
+      <div class="left">
+        <div class="subTitle">
+          Amorphous Space Widgets
+        </div>
+      </div>
+      <div class="right">
+        <div class="gameLink"><a href="https://hitchh1k3r.itch.io/amorphous-space-widgets" target="_blank">https://hitchh1k3r.itch.io/amorphous-space-widgets</a></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="block">
+      <div class="left">
+
+        <p>This was the only team Ludum Dare game I made with only one other person (they did sound and graphics). It had a lot of parts that got added as the project grew (not things that we had planned ahead of time). Implementing the game physics is the part that I remember most though. There were three shapes that all behaved differently. The triangle has three sticky corners that it can roll up a hill with. The square will squish a bit if something lands on it (it's a bit like a softbody), or it could wedge itself between two opposing wall (while falling) and slow down, eventually stopping. These mechanics were not translated into the level design though (which was rushed). All of the physics decisions were motivated by what would be fun to play, rather than what is realistic (I think a good choice for a 2D platformer).</p>
+      </div>
+      <div class="right">
+        <p>Made for Ludum Dare 35, with the theme "Shapeshift". It was rated above average, probably because of a lack of cohesion.</p>
+
+        <div class="maxWidthVideo">
+          <div class="aspect" style="padding-top:62.5%;">
+            <iframe class="aspect_content" src="https://www.youtube.com/embed/08U_zVpHHnE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <p>Players were confused how to play, since implementing the mechanics took all of my time, I did not get a chance to build levels that taught the players very well. I added a tutorial level, and made a post-jam version a few days later, and I think it introduced the players to the game in a fun way, that was (in my opinion) better than the "game proper."</p>
+      </div>
+      <div class="clear"></div><br />
+    </div>
+
+    <!-- ======================= SHADERS ======================= -->
+
+    <a name="shaders"></a>
+    <div class="title">
+      SHADERS
+    </div>
+
+    <!-- ======================= Procedural Textures ======================= -->
+
+    <div class="full">
+      <div class="subTitle">
+        Procedural Textures
+      </div>
+
+      <div class="imgWrapper" style="max-width: 1765px;">
+        <a href="img/proc_textures.png" target="_blank">
+          <div class="aspect" style="padding-top:56.260623229%;">
+            <img class="aspect_content" src="img/proc_textures.png"></iframe>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- ======================= Rim Lighting ======================= -->
+
+    <div class="full">
+      <div class="subTitle">
+        Rim Lighting (Ghost Effect)
+      </div>
+
+      <div class="imgWrapper" style="max-width: 1760px;">
+        <a href="img/rim_light.png" target="_blank">
+          <div class="aspect" style="padding-top:112.443181818%;">
+            <img class="aspect_content" src="img/rim_light.png"></iframe>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- ======================= Smooth Mesh ======================= -->
+
+    <div class="full">
+      <div class="subTitle">
+        Smooth (Vectorized 3D) Mesh
+      </div>
+
+      <div class="imgWrapper" style="max-width: 1166px;">
+        <a href="img/smooth_mesh.png" target="_blank">
+          <div class="aspect" style="padding-top:56.003430531%;">
+            <img class="aspect_content" src="img/smooth_mesh.png"></iframe>
+          </div>
+        </a>
+      </div>
+
+      <div class="imgWrapper" style="max-width: 1114px;">
+        <a href="img/smooth_mesh_2.png" target="_blank">
+          <div class="aspect" style="padding-top:46.140035906%;">
+            <img class="aspect_content" src="img/smooth_mesh_2.png"></iframe>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- ======================= X-Ray Outline ======================= -->
+
+    <div class="full">
+      <div class="subTitle">
+        X-Ray Outlines
+      </div>
+
+      <div class="imgWrapper" style="max-width: 753px;">
+        <a href="img/xray_border.png" target="_blank">
+          <div class="aspect" style="padding-top:53.519256308%;">
+            <img class="aspect_content" src="img/xray_border.png"></iframe>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- ======================= UNITY EDITOR EXTENSIONS ======================= -->
+
+    <a name="unity_editor_extension"></a>
+    <div class="title">
+      UNITY EDITOR EXTENSIONS
+    </div>
+
+    <!-- ======================= ASSET VARIABLES ======================= -->
+
+    <div class="block">
+      <div class="subTitle">
+        ASSET VARIABLES
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="block">
+      <div class="left">
+        <p>A short description paragraph. Based on <a href="https://github.com/roboryantron/Unite2017/blob/master/Assets/Code/Variables/FloatVariable.cs" target="_blank">Ryan Hipple's Unite 2017 Talk</a>. I made it a generic template, so any variable type can be easily created, and added a reverter system to make assetvariables act more like GameObject parameters than assets.</p>
+        <div class="codeBox">
+          AssetVariable.cs
+          <div class="aspect" style="padding-top:75%;">
+            <iframe class="aspect_content" src="code/AssetVariable.cs.html" frameborder="0"></iframe>
+          </div>
+        </div>
+
+      </div>
+      <div class="right">
+        <p>The AssetVariable and AssetReferance classes can be used for a lot of MonoBehavior properties. It is primarily a decoupling utility (preventing the pollution of the global scope with hard to qualify variables).</p>
+
+        <div class="imgWrapper" style="max-width: 422px;">
+          <a href="img/asset_variables.png" target="_blank">
+            <div class="aspect" style="padding-top:81.042654028%;">
+              <img class="aspect_content" src="img/asset_variables.png"></iframe>
+            </div>
+          </a>
+        </div>
+
+        <p>The scale parameters above are all FloatReferances, allowing the component user to provide a fixed value, or a reference to a FloatVariable (that can be set by an isolated script).</p>
+      </div>
+      <div class="clear"></div><br />
+    </div>
+
+    <!-- ======================= AUTO SAVE ======================= -->
+
+    <div class="block">
+      <div class="subTitle">
+        AUTO SAVE
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="block">
+      <div class="left">
+        <br />
+        <div class="codeBox">
+          AutoSaveSystem.cs
+          <div class="aspect" style="padding-top:75%;">
+            <iframe class="aspect_content" src="code/AutoSaveSystem.cs.html" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <p>The auto save system will save the current opened scene at a fixed (configurable) interval. It live completely in the EditorAssebly, so it will not effect the build performance at all -- I'm not sure why so many Unity assets pollute the finished game with the scripts, when they really only change editor features. It is also smart enough to check if the file has already been saved (or if there are no changes since the last save), and avoid creating a new file.</p>
+      </div>
+      <div class="clear"></div><br />
+    </div>
+
+    <!-- ======================= INPUT SYSTEM ======================= -->
+
+    <div class="block">
+      <div class="subTitle">
+        INPUT SYSTEM
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="block">
+      <div class="left">
+        <p>I work on this one on and off, typically when ever Unity postpones the release of their new Input System... at this point I believe mine is more capable then any of their prototypes. One of the features I'm particularly proud of, is SubTypeLists... bellow is the editor script for a List of ScritableObjects (that will live inside another ScriptableObject/Asset), and can take an optional list of Types that are all of the unique SubTypes that extend the required asset type. This is used to allow every part of the system to have a custom script at any level (high or low). Bellow that is an implementation of this editor script (the editor for a mapping between gameplay actions (assets), and the input (assets)).</p>
+
+        <div class="codeBox">
+          ScriptableSubObjectList.cs
+          <div class="aspect" style="padding-top:75%;">
+            <iframe class="aspect_content" src="code/ScriptableSubObjectList.cs.html" frameborder="0"></iframe>
+          </div>
+        </div>
+
+        <div class="codeBox">
+          ActionMap_StandardInspector.cs
+          <div class="aspect" style="padding-top:75%;">
+            <iframe class="aspect_content" src="code/ActionMap_StandardInspector.cs.html" frameborder="0"></iframe>
+          </div>
+        </div>
+
+      </div>
+      <div class="right">
+        <p>My Input System allows the creation of various gameplay actions (things like "jump", "move", "take", or "open menu" -- standard actions types are: buttons, axes, 2d axes -- but the types are completely extendable, allowing a specific game type to provide it's own unique action types), and map them to similarly user defined (and extendable) inputs. Bellow you can see an example of a Keyboard & Mouse Action Map for various gameplay actions, in a fighting game.</p>
+
+        <div class="imgWrapper" style="max-width: 1023px;">
+          <a href="img/input.png" target="_blank">
+            <div class="aspect" style="padding-top:87.390029325%;">
+              <img class="aspect_content" src="img/input.png"></iframe>
+            </div>
+          </a>
+        </div>
+
+        <p>The input assets currently wrap Unity's Input System, but they are fully extendable, so it would not be very hard to add new unique controller types. If you have the ability to get data from them, you can create an input map (and input types if the data cannot be represented an a button or axis). Bellow is the Controller Input Map for a USB SNES controller.</p>
+
+        <div class="imgWrapper" style="max-width: 329px;">
+          <a href="img/input_2.png" target="_blank">
+            <div class="aspect" style="padding-top:196.957403651%;">
+              <img class="aspect_content" src="img/input_2.png"></iframe>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="clear"></div><br />
+    </div>
+
+    <!-- ======================= BUILD AND DEPLOY ======================= -->
+
+    <div class="block">
+      <div class="subTitle">
+        BUILD AND DEPLOY
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="block">
+      <div class="left">
+        <p>A system designed to allow quick build and deployment (for team Game Jam environments). It follows a similar idea to my Input System, in that is is composed of separate extendable modules. The build part is fairly straight forward, and just triggers one of Unity's built in builds. The deployment part is composed of scripts that handle different cases. I've mostly used "WebsiteDeployment" which will zip the build (if it's an application, not if it's a web build), and then uses rsynch to upload it to a configurable server. There is a similar script for itch.io deployment (using butler), and no reason a Steam (or any other store) couldn't have support added very easily.</p>
+
+        <div class="codeBox">
+          BuildAndDeployUtils.cs
+          <div class="aspect" style="padding-top:75%;">
+            <iframe class="aspect_content" src="code/BuildAndDeployUtils.cs.html" frameborder="0"></iframe>
+          </div>
+        </div>
+
+        <p>Each deployment script can subscribe to several events (pre-build, post-build, build-error, etc.), and you can also make triggered by every build addons. Bellow is an example of a simple module that will write the current builds version number to a text file (useful for displaying the build version on the title screen).</p>
+        <div class="codeBox">
+          VersionTextFile.cs
+          <div class="aspect" style="padding-top:75%;">
+            <iframe class="aspect_content" src="code/VersionTextFile.cs.html" frameborder="0"></iframe>
+          </div>
+        </div>
+
+      </div>
+      <div class="right">
+        <p>Each module can provided configuration options to be displayed (and stored) in a central place, for easy setup.</p>
+
+        <div class="imgWrapper" style="max-width: 1008px;">
+          <a href="img/build_and_deploy.png" target="_blank">
+            <div class="aspect" style="padding-top:65.575396825%;">
+              <img class="aspect_content" src="img/build_and_deploy.png"></iframe>
+            </div>
+          </a>
+        </div>
+
+        <p>Builds can take a long time, it's nice to be able to chain builds and then take a break while they all process.</p>
+
+        <div class="imgWrapper" style="max-width: 802px;">
+          <a href="img/build_and_deploy_2.png" target="_blank">
+            <div class="aspect" style="padding-top:82.294264339%;">
+              <img class="aspect_content" src="img/build_and_deploy_2.png"></iframe>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="clear"></div><br />
+    </div>
+
+    <!-- ======================= LOW-LEVEL PROGRAMMING ======================= -->
+
+    <!-- <a name="low_level_programming"></a>
+    <div class="title">
+      LOW-LEVEL PROGRAMMING
+    </div> -->
+
+    <!-- ======================= Platform Abstraction Layer ======================= -->
+
+    <!-- <div class="block">
+      <div class="left">
+        Platform Abstraction Layer
+      </div>
+      <div class="right">
+        <div class="maxWidthVideo">
+          <div class="aspect" style="padding-top:56.25%;">
+            <iframe class="aspect_content" src="https://www.youtube.com/embed/" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div><br />
+    </div> -->
+
+    <!-- ======================= CODE SAMPLES ======================= -->
+
+    <a name="code_samples"></a>
+    <div class="title">
+      CODE SAMPLES
+    </div>
+
+    <!-- ======================= C# ======================= -->
+
+    <div class="full">
+      <div class="subTitle">
+        C#
+      </div>
+
+      <p>My tweening library is used in nearly all of my projects, so it has been growing with me. It is composed of a Tween class that provides coroutines for all sorts of tweens, and an Easing class that provides the most common easing methods, though it is easy to provide custom timing functions. I'm happy with the features it provides, and use the GenericTween's constantly.</p>
+
+      <div class="codeBox">
+        <div class="maxWidth">
+          Tween.cs
+          <div class="aspect" style="padding-top:60%;">
+            <iframe class="aspect_content" src="code/Tween.cs.html"" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="imgWrapper" style="float: right; width: 40%; max-width: 1173px; margin-left: 10px;">
+        <a href="img/folds.png" target="_blank">
+          <div class="aspect" style="padding-top:49.872122762%;">
+            <img class="aspect_content" src="img/folds.png"></iframe>
+          </div>
+        </a>
+      </div>
+
+      <p>I've included a number of C# files above. Rather than give another sample, I'd like to show off some of my first pass (much rougher) code, so you can get an idea of the changes and simplifications I apply when polishing my programs.</p>
+
+      <div class="clear"></div>
+
+      <div class="codeBox">
+        <div class="maxWidth">
+          Reflectable.cs
+          <div class="aspect" style="padding-top:60%;">
+            <iframe class="aspect_content" src="code/Reflectable.cs.html"" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ======================= JAVA ======================= -->
+
+    <div class="full">
+      <div class="subTitle">
+        JAVA
+      </div>
+      <p>Here is a method from a Minecraft mod I authored. This class is passed the bytecode of Minecraft files as they are loaded, it then trys to dynamically patch them to suite my needs, reporting any errors (and consequences) it runs into.</p>
+
+      <div class="codeBox">
+        <div class="maxWidth">
+          ASMTransformer.java
+          <div class="aspect" style="padding-top:60%;">
+            <iframe class="aspect_content" src="code/ASMTransformer.java.html"" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ======================= C++ ======================= -->
+
+    <!-- <div class="full">
+      <div class="subTitle">
+        C++
+      </div>
+
+      <p>Lorem ipsum...</p>
+    </div> -->
+
+    <!-- ======================= C ======================= -->
+
+    <div class="full">
+      <div class="subTitle">
+        C
+      </div>
+      <p>My C code tends to be a bit more library-esque... here is a simple file to provide basic vector and matrix math.</p>
+
+      <div class="codeBox">
+        <div class="maxWidth">
+          vector_math.c
+          <div class="aspect" style="padding-top:60%;">
+            <iframe class="aspect_content" src="code/vector_math.c.html"" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ======================= VIRTUAL REALITY ======================= -->
+
+    <!-- <a name="virtual_reality"></a>
+    <div class="title">
+      VIRTUAL REALITY
+    </div> -->
+
+    <!-- ======================= VR Hands Prototype ======================= -->
+
+    <!-- <div class="block">
+      <div class="left">
+        VR Hands Prototype
+      </div>
+      <div class="right">
+                <div class="maxWidthVideo">
+          <div class="aspect" style="padding-top:56.25%;">
+            <iframe class="aspect_content" src="https://www.youtube.com/embed/LSCB_EbDiZ4" f
+            </div>rameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="clear"></div><br />
+    </div> -->
+
+
+    <script>
+      // The iframes became too big, so we're doing some screen culling ^_^
+
+      frames = document.getElementsByTagName('iframe');
+
+      function updateIFrames(winPos)
+      {
+        var winHeight = window.innerHeight;
+        for (var i = 0; i < frames.length; ++i)
+        {
+          var elHeight = frames[i].parentElement.clientHeight;
+          var elPos = frames[i].parentElement.getBoundingClientRect().top;
+          frames[i].style.display = ((((elPos + elHeight) > 0) && (elPos < winHeight)) ? 'block' : 'none');
+        }
+      }
+
+      var scrolling = false;
+      window.addEventListener('scroll', function(e) {
+          lastScroll = window.scrollY;
+          if (!scrolling) {
+            window.requestAnimationFrame(function() {
+              scrolling = false;
+              updateIFrames(lastScroll);
+            });
+            scrolling = true;
+          }
+        });
+
+      var sizing = false;
+      window.addEventListener('resize', function(e) {
+          lastScroll = window.scrollY;
+          if (!sizing) {
+            window.requestAnimationFrame(function() {
+              sizing = false;
+              updateIFrames(lastScroll);
+            });
+            sizing = true;
+          }
+        });
+
+      updateIFrames(window.scrollY);
+    </script>
+
+    <script>!function(r,d,f,a,t){var s = document.createElement(d);s.src='//app.reflectivedata.com/cdn/tracker.js',r.getElementsByTagName(f)[a].appendChild(s);t._rd=t._rd||{};t._rd.account_ID='39600f52';}(document, 'script', 'head', 0, window);</script>
+  </body>
+</html>

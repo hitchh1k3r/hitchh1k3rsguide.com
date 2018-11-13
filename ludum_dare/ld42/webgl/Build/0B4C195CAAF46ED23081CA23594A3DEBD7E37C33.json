@@ -1,0 +1,13 @@
+{
+"companyName": "Ludum Dare 42",
+"productName": "Gel Break",
+"dataUrl": "73E87E26FC0473936E9E804D91A8C5E5E39E1F5A.data.unityweb",
+"wasmCodeUrl": "342629D0AA3A06325B5E030A878DB033E9CCBE37.wasm.code.unityweb",
+"wasmFrameworkUrl": "7ECE50AA36E4DA4038D247603C85CFD3421DF506.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
